@@ -21,3 +21,7 @@
 !.config/
 !.config/htop/
 !.config/htop/htoprc
+
+## Track user-dirs settings
+!.config/
+!.config/user-dirs.*
