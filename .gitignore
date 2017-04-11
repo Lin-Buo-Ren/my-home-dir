@@ -16,3 +16,8 @@
 
 ## Track FBTerm settings
 !.fbtermrc
+
+## Track Htop settings
+!.config/
+!.config/htop/
+!.config/htop/htoprc
