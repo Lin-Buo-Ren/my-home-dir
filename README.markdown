@@ -2,6 +2,9 @@
 <https://github.com/Lin-Buo-Ren/my-home-dir>  
 共享使用者帳號目錄內修改的努力，類似 rcfiles
 
+## Features
+* .profile.d 分散式 profile 設定檔設計，方便備份
+
 ## Author
 [林博仁](https://github.com/Lin-Buo-Ren) &lt;<Buo.Ren.Lin@gmail.com>&gt;
 

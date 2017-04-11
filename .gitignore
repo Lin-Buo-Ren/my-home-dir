@@ -8,3 +8,8 @@
 
 ## Track project readme
 !README.*
+
+## Track distributed profile scripts
+!.profile.d/
+!.profile.d/README.*
+!.profile.d/*.source.sh
