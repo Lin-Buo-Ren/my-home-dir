@@ -1,0 +1,10 @@
+# Version Control Tracking Ignore Rules
+## By default ignore all files except specified
+*
+.*
+
+## Track Git config files
+!.git*
+
+## Track project readme
+!README.*
