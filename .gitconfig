@@ -1,0 +1,21 @@
+[user]
+	name = 林博仁
+	email = Buo.Ren.Lin@gmail.com
+[color]
+	ui = true
+[gui]
+	editor = kate --startanon --new
+	historybrowser = gitk
+[cola]
+	boldheaders = true
+	tabwidth = 2
+	linebreak = false
+[credential]
+	helper = cache --timeout 10800
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[alias]
+	denny-git-log = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
