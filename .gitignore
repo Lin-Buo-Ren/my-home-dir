@@ -33,3 +33,6 @@
 
 ## Track Debian reportbug util settings
 !.reportbugrc
+
+## Track Display Manager settings
+!.dmrc
