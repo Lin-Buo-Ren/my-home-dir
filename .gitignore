@@ -13,3 +13,6 @@
 !.profile.d/
 !.profile.d/README.*
 !.profile.d/*.source.sh
+
+## Track FBTerm settings
+!.fbtermrc
