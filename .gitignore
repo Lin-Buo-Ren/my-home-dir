@@ -25,3 +25,8 @@
 ## Track user-dirs settings
 !.config/
 !.config/user-dirs.*
+
+## Track HIME settings
+!.config/
+!.config/hime/
+!.config/hime/hime.conf
