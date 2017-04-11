@@ -30,3 +30,6 @@
 !.config/
 !.config/hime/
 !.config/hime/hime.conf
+
+## Track Debian reportbug util settings
+!.reportbugrc

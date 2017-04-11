@@ -1,0 +1,19 @@
+# reportbug preferences file
+# character encoding: UTF-8
+# Version of reportbug this preferences file was written by
+reportbug_version "6.6.6ubuntu1"
+# default operating mode: one of: novice, standard, advanced, expert
+mode standard
+# default user interface
+ui gtk2
+# offline setting - comment out to be online
+#offline
+# name and email setting (if non-default)
+# realname "林博仁"
+email "Buo.Ren.Lin@gmail.com"
+# Disable fallback mode by commenting out the following:
+no-cc
+header "X-Debbugs-CC: Buo.Ren.Lin@gmail.com"
+smtphost reportbug.debian.org
+# You can add other settings after this line.  See
+# /etc/reportbug.conf for a full listing of options.
