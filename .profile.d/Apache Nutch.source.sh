@@ -4,8 +4,7 @@ NUTCH_RUNTIME_HOME="$HOME/軟體/Apache Nutch"
 
 if is_path_exist "${NUTCH_RUNTIME_HOME}" ; then
 	export NUTCH_RUNTIME_HOME
+	install_executable_search_path "${NUTCH_RUNTIME_HOME}"
 else
 	unset NUTCH_RUNTIME_HOME
 fi
-
-install_executable_search_path "${NUTCH_RUNTIME_HOME}"
