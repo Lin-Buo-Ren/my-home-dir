@@ -10,6 +10,7 @@
 	boldheaders = true
 	tabwidth = 2
 	linebreak = false
+	spellcheck = false
 [credential]
 	helper = cache --timeout 10800
 [filter "lfs"]
