@@ -3,13 +3,13 @@
 NUTCH_RUNTIME_HOME="$HOME/軟體/Apache_Nutch"
 APACHE_SOLR_HOME="${HOME}/軟體/Apache_Solr"
 
-if [ is_path_exist "${HOME}/軟體/Apache_Nutch" ] ; then
+if is_path_exist "${HOME}/軟體/Apache_Nutch" ; then
 	export NUTCH_RUNTIME_HOME
 else
 	unset NUTCH_RUNTIME_HOME
 fi
 
-if [ is_path_exist "${HOME}/軟體/Apache_Solr" ] ; then
+if is_path_exist "${HOME}/軟體/Apache_Solr" ; then
 	export APACHE_SOLR_HOME
 else
 	unset APACHE_SOLR_HOME
