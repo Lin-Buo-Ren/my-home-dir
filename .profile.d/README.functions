@@ -1,5 +1,6 @@
 # utility functions
 # 林博仁 © 2017
+# shellcheck shell=sh
 
 ## Include guard
 if [ -n "${_PROFILE_D_FUNCTIONS_INCLUDED}" ]; then
