@@ -54,6 +54,10 @@ install_executable_search_path(){
 
 	executable_path="${1}"
 
+	if is_dir_in_executable_search_path "${executable_path}"; then
+		return 0
+	fi
+
 	if is_path_exist "${executable_path}"; then
 		PATH="${executable_path}:${PATH}"
 	else
