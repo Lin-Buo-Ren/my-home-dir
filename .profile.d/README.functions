@@ -61,7 +61,7 @@ install_executable_search_path(){
 	if is_path_exist "${executable_path}"; then
 		PATH="${executable_path}:${PATH}"
 	else
-		printf "WARNING: Executable path \"%s\" not exist, ignored.\n" "${executable_path}" 1>&2
+		printf "WARNING: %u: Executable path \"%s\" not exist, ignored.\n" "${LINENO}" "${executable_path}" 1>&2
 	fi
 
 	unset executable_path
