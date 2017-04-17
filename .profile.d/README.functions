@@ -19,7 +19,7 @@ is_path_exist(){
 }
 
 ## Check if the dir is already in ${PATH}
-is_dir_in_path(){
+is_dir_in_executable_search_path(){
 	if [ "${#}" -ne 1 ]; then
 		printf "ERROR: %u: Argument quantity mismatch!\n" "${LINENO}" 1>&2
 		exit 1
