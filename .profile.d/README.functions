@@ -17,7 +17,6 @@ is_path_exist(){
 	test -d "${1}"
 	return
 }
-readonly is_path_exist
 
 ## Utility function to install non-FHS compliant software's executable path to executable search path set
 install_executable_search_path(){
@@ -37,7 +36,6 @@ install_executable_search_path(){
 	unset executable_path
 	return 0
 }
-readonly install_executable_search_path
 
 ## Set include guard
 readonly _PROFILE_D_FUNCTIONS_INCLUDED="1"
