@@ -18,6 +18,33 @@ is_path_exist(){
 	return
 }
 
+## Check if the dir is already in ${PATH}
+is_dir_in_path(){
+	if [ "${#}" -ne 1 ]; then
+		printf "ERROR: %u: Argument quantity mismatch!\n" "${LINENO}" 1>&2
+		exit 1
+	fi
+
+	is_dir_in_path_dir="${1}"
+
+	find_result=1 # not found by default
+
+	# Backup IFS and restore afterwards
+	IFS_ORIGINAL="${IFS}"
+	IFS=":"
+
+	for pathdir in ${PATH}; do
+		if [ "${is_dir_in_path_dir}" = "${pathdir}" ]; then
+			find_result=0
+			break
+		fi
+	done
+
+	IFS="${IFS_ORIGINAL}"
+
+	return "${find_result}"
+}
+
 ## Utility function to install non-FHS compliant software's executable path to executable search path set
 install_executable_search_path(){
 	if [ "${#}" -ne 1 ]; then
