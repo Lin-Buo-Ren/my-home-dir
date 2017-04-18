@@ -10,6 +10,7 @@
 !README.*
 
 ## Track distributed profile scripts
+!.profile.d
 !.profile.d/
 !.profile.d/README.*
 !.profile.d/*.source.sh

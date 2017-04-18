@@ -1,0 +1,3 @@
+[submodule ".profile.d"]
+	path = .profile.d
+	url = https://github.com/Lin-Buo-Ren/.profile.d.git
