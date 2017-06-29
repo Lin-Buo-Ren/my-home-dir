@@ -8,7 +8,7 @@
 	historybrowser = gitk
 [cola]
 	boldheaders = true
-	tabwidth = 2
+	tabwidth = 4
 	linebreak = false
 	spellcheck = false
 	fontdiff = Noto Sans Mono CJK TC,11,-1,5,50,0,0,0,0,0
