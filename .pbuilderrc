@@ -1,0 +1,6 @@
+# Local pbuilder configuration
+# You need to make a symbolic link to this file from /root/.pbuilderrc as pbuilder is usually run as root
+# Documentation: pbuilder(8)
+MIRRORSITE=http://free.nchc.org.tw/debian
+DISTRIBUTION=sid
+COMPONENTS="main"
