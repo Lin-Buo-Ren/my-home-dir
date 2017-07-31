@@ -9,13 +9,6 @@
 ## Track project readme
 !/README.*
 
-## Track distributed profile scripts
-!/.profile.d
-!/.profile.d/
-!/.profile.d/README.*
-!/.profile.d/*.source.sh
-!/.profile.d/*.source.sh.template
-
 ## Track FBTerm settings
 !/.fbtermrc
 
