@@ -4,46 +4,46 @@
 .*
 
 ## Track Git config files
-!.git*
+!/.git*
 
 ## Track project readme
-!README.*
+!/README.*
 
 ## Track distributed profile scripts
-!.profile.d
-!.profile.d/
-!.profile.d/README.*
-!.profile.d/*.source.sh
-!.profile.d/*.source.sh.template
+!/.profile.d
+!/.profile.d/
+!/.profile.d/README.*
+!/.profile.d/*.source.sh
+!/.profile.d/*.source.sh.template
 
 ## Track FBTerm settings
-!.fbtermrc
+!/.fbtermrc
 
 ## Track Htop settings
-!.config/
-!.config/htop/
-!.config/htop/htoprc
+!/.config/
+!/.config/htop/
+!/.config/htop/htoprc
 
 ## Track user-dirs settings
-!.config/
-!.config/user-dirs.*
+!/.config/
+!/.config/user-dirs.*
 
 ## Track HIME settings
-!.config/
-!.config/hime/
-!.config/hime/hime.conf
+!/.config/
+!/.config/hime/
+!/.config/hime/hime.conf
 
 ## Track Debian reportbug util settings
-!.reportbugrc
+!/.reportbugrc
 
 ## Track Display Manager settings
-!.dmrc
+!/.dmrc
 
 ## Track Transmission settings
-!.config/
-!.config/transmission/
-!.config/transmission/settings.json
+!/.config/
+!/.config/transmission/
+!/.config/transmission/settings.json
 
 ## Track pbuilder(8) configuration
-!.pbuilderrc
+!/.pbuilderrc
 
