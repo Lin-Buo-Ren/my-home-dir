@@ -1,6 +1,7 @@
 [user]
 	name = 林博仁
 	email = Buo.Ren.Lin@gmail.com
+	signingkey = C24664B4
 [color]
 	ui = true
 [gui]
