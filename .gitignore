@@ -43,3 +43,6 @@
 
 ## Track dput(1) configuration
 !/.dput.cf
+
+## Track devscripts
+!/.devscripts

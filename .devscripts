@@ -1,0 +1,9 @@
+# devscripts shared configuration file
+# DOC: devscripts(1)
+
+## debuild設定
+## DOC: debuild(1)
+## 從 Debian 新維護人員手冊 > 構建套件 > 完整的(重)構建
+## https://www.debian.org/doc/manuals/maint-guide/build.zh-tw.html#idm2795 複製而來
+DEBUILD_DPKG_BUILDPACKAGE_OPTS="-I -i"
+DEBUILD_LINTIAN_OPTS="-i -I --show-overrides"
