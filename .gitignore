@@ -39,3 +39,6 @@
 
 ## Track pbuilder(8) configuration
 !/.pbuilderrc
+
+## Track dput(1) configuration
+!/.dput.cf
