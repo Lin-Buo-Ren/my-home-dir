@@ -43,3 +43,7 @@
 !.config/
 !.config/transmission/
 !.config/transmission/settings.json
+
+## Track pbuilder(8) configuration
+!.pbuilderrc
+
