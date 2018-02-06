@@ -1,26 +1,44 @@
+# User-wide Global Configuration of Git VCS
+# 
+# Documentation: Refer git-config(1) manual page(manpage)
+# 
+# A '#' or ';' character indicates a comment
+; Core variables
+[core]
+	; Don't escape special characters to support proper rendering of  paths includingCJK character
+	quotepath = false
+
 [user]
 	name = 林博仁
 	email = Buo.Ren.Lin@gmail.com
 	signingkey = C24664B4
+
+; Sub-command aliases
+[alias]
+	denny-git-log = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+
 [color]
 	ui = true
+
 [gui]
 	editor = kate --startanon --new
 	historybrowser = gitk
+
+; Configuration of Git Cola
+; Documentation: Git Cola > Help > Documentation
 [cola]
 	boldheaders = true
 	tabwidth = 4
 	linebreak = false
 	spellcheck = false
 	fontdiff = Noto Sans Mono CJK TC,11,-1,5,50,0,0,0,0,0
+
+; Credential Cache Helper
 [credential]
 	helper = cache --timeout 10800
+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-[alias]
-	denny-git-log = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
-[core]
-	quotepath = false
