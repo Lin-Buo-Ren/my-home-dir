@@ -1,0 +1,5 @@
+# User Global Git Ignore Rules
+# Documentation: git-config(1) manual page
+
+## Output redirected by nohup(1)
+nohup.out
