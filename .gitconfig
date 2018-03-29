@@ -5,7 +5,7 @@
 # A '#' or ';' character indicates a comment
 ; Core variables
 [core]
-	; Don't escape special characters to support proper rendering of  paths includingCJK character
+	; Don't escape special characters to support proper rendering of paths with CJK characters
 	quotepath = false
 
 [user]
