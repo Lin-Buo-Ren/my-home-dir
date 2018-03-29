@@ -32,6 +32,7 @@
 	linebreak = false
 	spellcheck = false
 	fontdiff = Noto Sans Mono CJK TC,11,-1,5,50,0,0,0,0,0
+	showpath = false
 
 ; Credential Cache Helper
 [credential]
