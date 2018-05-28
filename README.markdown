@@ -2,6 +2,9 @@
 <https://github.com/Lin-Buo-Ren/my-home-dir>  
 共享使用者帳號目錄內修改的努力，類似 rcfiles
 
+## Obselution Notcie
+This project has been superseded by solutions based on [RichiH/vcsh: config manager based on Git](https://github.com/RichiH/vcsh), you may find them under Lin-Bou-Ren/vcsh-* GitHub repositories.
+
 ## Features
 * .profile.d 分散式 profile 設定檔設計，方便備份
 
